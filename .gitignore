@@ -43,3 +43,9 @@ jspm_packages
 
 #npmrc file
 .npmrc
+
+#self
+.gitignore
+
+# env file
+#.env

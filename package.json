@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.1.0",
+    "lodash": "^4.17.11",
     "parse-dashboard": "^1.2.0",
     "parse-server": "*"
   }
