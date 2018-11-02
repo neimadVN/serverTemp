@@ -6,7 +6,7 @@ const parseDashboardOption = {
     mountPath: process.env.DASHBOARD_MOUNT || '/dashboard',
     apps: [
         {
-            serverURL: process.env.serverURL || 'http://localhost:1337/api',
+            serverURL: parseServerOptions.serverURL || 'https://'+process.env.PROJECT_DOMAIN+'.glitch.me/api',
             appId: parseServerOptions.appId,
             masterKey: parseServerOptions.masterKey,
             javascriptKey: parseServerOptions.javascriptKey,

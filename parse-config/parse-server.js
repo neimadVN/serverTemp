@@ -7,7 +7,7 @@ const parseServerOption = {
     cloud: process.env.CLOUD_CODE_MAIN || './cloud/main.js',
     appId: process.env.APP_ID || 'localAppId0123456789',
     masterKey: process.env.MASTER_KEY || 'localMasterKey0123456789',
-    serverURL: process.env.SERVER_URL || 'http://localhost:1337/api',
+    serverURL: 'https://'+process.env.PROJECT_DOMAIN+'.glitch.me/api',
     maxUploadSize: process.env.PARSE_SERVER_MAX_UPLOAD_SIZE || '10mb',
 
     javascriptKey: process.env.PARSE_SERVER_JAVASCRIPT_KEY || 'js-SDK-Key-0123456789',
