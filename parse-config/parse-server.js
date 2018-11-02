@@ -30,4 +30,4 @@ if (enabledLiveQuery == 1) {
 }
 
 //=====================================================================
-module.exports = parseServerOption;
+module.exports = parseServer
