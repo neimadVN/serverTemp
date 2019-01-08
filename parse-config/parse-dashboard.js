@@ -18,8 +18,8 @@ const parseDashboardOption = {
     ],
     users: [
         {
-            user: 'eshop_operator',
-            pass: '$2y$12$1cqD3WI7RtDdvGrDWxogEOOROTK3yB/AnWbDPDKaeJCaNw6u4w6EO' // eshoppanda
+            user: 'operator',
+            pass: '$2y$12$powl7yKZ633PtIW.d0e.mOGV8X..BQvY8j7Fm/GE2/HrpQg.VJGj6' // Aa123456@
         }
     ],
     useEncryptedPasswords: true // @link: https://bcrypt-generator.com
